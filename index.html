@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daugther of baco winery</title>
+    <link rel="stylesheet" href="./style/estilos.css">
+        <link href=<link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Raleway:wght@100;300;500&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+<nav>
+    <a href="index.html"> <img src="./images/logo.png" alt="logo"></a>
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"> </i>
+        <ul>
+            <li> <a href=""> HOME </a></li>
+            <li> <a href=""> NOSOTROS </a></li>
+            <li> <a href=""> NUESTROS VIÑEDOS </a></li>
+            <li> <a href=""> EXPERIENCIA </a></li>
+            <li> <a href=""> CONTACTO </a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"> </i>
+</nav>
+    <div class="text-box">
+        <h1>Daughter of baco</h1>
+        <p>De los viñedos a la originalidad de creación </p>
+        <a href=""class="linknos">Nosotros</a> 
+    </div> 
+    </section>
+
+<script>
+    var navLinks = document.getElementById ("navLinks")
+    function showMenu (){
+        navLinks.style.right = "0";
+    }
+    function hideMenu () {
+        navLinks.style.right = "-200px";
+        }
+</script>
+
+</body>
+</html>
